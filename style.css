@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#sky {
+    position: relative;
+    overflow: hidden;
+}
+#mountains {
+    position: absolute;
+    bottom: -2%;
+}
+#birds {
+    position: absolute;
+    top: 10%;
+    left: 50%; 
+}
+#cloudFirst {
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+}
+#cloudSecond {
+    position: absolute;
+    left: 550px;
+    top: 0%;
+    z-index: 1;
+}
+#cloudThird {
+    position: absolute;
+    left: 1250px;
+    z-index: 0;
+}
+#sun {
+    position: absolute;
+    left: 250px;
+    top: -50px;
+    z-index: 0;
+}
+#rainbow {
+    position: absolute;
+    width: 100vw;
+    top: 20%;
+    right: -30%;
+    opacity: 0.5;
+    z-index: -2;
+}
+#house {
+    position: absolute;
+    left: 46%;
+    top: 30%;
+    z-index: 0;
+}
+.grass {
+    position: absolute;
+    background-image: url("images/grass.png");
+    background-repeat: repeat-x;
+    background-size: 200px;
+    z-index: 5;
+    width: 100vw;
+    bottom: -3%;
+}
+#car {
+    position: absolute;
+    bottom: -3%;
+    left: 10%;
+    z-index: 4;
+}
+#tree {
+    position: absolute;
+    bottom: 0;
+    left: 17%;
+    z-index: 3;
+}
+#man {
+    position: absolute;
+    bottom: 0%;
+    left: 29%;
+    z-index: 4;
+}
+#dog {
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    z-index: 2;
+}
